@@ -5,13 +5,13 @@ public class TaxableItems {
     ArrayList<String> items = new ArrayList<String>();
 
     public TaxableItems() {
-        items.add("music CD");
+        items.add("music_CD");
         items.add("perfume");
     }
 
     public boolean contains(String item) {
         for (String iteratorItem : items) {
-            if (iteratorItem == item)
+            if (iteratorItem.equals(item))
                 return true;
         }
         return false;

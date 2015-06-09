@@ -14,14 +14,14 @@ public class SalesTaxTest {
 
         items.put("chocolate", 10.0);
         items.put("book", 10.0);
-        items.put("music CD", 60.0);
+        items.put("music_CD", 60.0);
 
         actual = tax.calculate(items);
 
         HashMap<String, Double> expected = new HashMap<String, Double>();
         expected.put("chocolate", 10.0);
         expected.put("book", 10.0);
-        expected.put("music CD", 66.0);
+        expected.put("music_CD", 66.0);
 
         assertEquals(expected, actual);
 

@@ -12,7 +12,7 @@ public class NonTaxableItems {
 
     public boolean contains(String item) {
         for (String iteratorItem : items) {
-            if (iteratorItem == item)
+            if (iteratorItem.equals(item))
                 return true;
         }
         return false;

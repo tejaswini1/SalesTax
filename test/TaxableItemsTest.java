@@ -9,7 +9,7 @@ public class TaxableItemsTest {
 
         TaxableItems TaxableItems = new TaxableItems();
 
-        boolean actual = TaxableItems.contains("music CD");
+        boolean actual = TaxableItems.contains("music_CD");
 
         assertEquals(true, actual);
     }
