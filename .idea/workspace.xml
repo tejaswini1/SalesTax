@@ -59,11 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ImportedTax.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ImportedTax.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ImportedTax.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.20507812">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="17" column="43" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="43" />
               <folding>
                 <element signature="e#147#163#0" expanded="true" />
               </folding>
@@ -75,8 +75,25 @@
         <entry file="file://$PROJECT_DIR$/src/SalesTax.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
-              <folding />
+              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+              <folding>
+                <element signature="e#225#241#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SalesTaxTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/SalesTaxTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6738281">
+              <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#277#293#0" expanded="true" />
+                <element signature="e#348#364#0" expanded="true" />
+                <element signature="e#571#587#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -85,7 +102,7 @@
         <entry file="file://$PROJECT_DIR$/test/ImportedTaxTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#286#302#0" expanded="true" />
@@ -126,8 +143,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -149,8 +166,9 @@
         <option value="$PROJECT_DIR$/src/SalesTaxApplication.java" />
         <option value="$PROJECT_DIR$/test/TaxTest.java" />
         <option value="$PROJECT_DIR$/src/Tax.java" />
-        <option value="$PROJECT_DIR$/src/SalesTax.java" />
         <option value="$PROJECT_DIR$/src/ImportedTax.java" />
+        <option value="$PROJECT_DIR$/src/SalesTax.java" />
+        <option value="$PROJECT_DIR$/test/SalesTaxTest.java" />
       </list>
     </option>
   </component>
@@ -272,28 +290,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ImportedTaxTest.shouldReturnItemsWithImportedTaxAddedToIt">
-    <configuration default="false" name="NonTaxableItemsTest.shouldReuturnTrueIfItemIsPresent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="SalesTax" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="NonTaxableItemsTest" />
-      <option name="METHOD_NAME" value="shouldReuturnTrueIfItemIsPresent" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.SalesTaxTest.shouldReturnItemsWithImportedTaxAddedToIt">
     <configuration default="false" name="NonTaxableItemsTest.shouldReuturnFalseIfItemIsNotPresent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="SalesTax" />
@@ -364,6 +361,27 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ImportedTaxTest" />
+      <option name="METHOD_NAME" value="shouldReturnItemsWithImportedTaxAddedToIt" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="SalesTaxTest.shouldReturnItemsWithImportedTaxAddedToIt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="SalesTax" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SalesTaxTest" />
       <option name="METHOD_NAME" value="shouldReturnItemsWithImportedTaxAddedToIt" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -622,19 +640,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.NonTaxableItemsTest.shouldReuturnTrueIfItemIsPresent" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.NonTaxableItemsTest.shouldReuturnFalseIfItemIsNotPresent" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.InputHandlerTest.shouldTakeInput" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TaxableItemsTest.shouldReuturnFalseIfItemIsNotPresent" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.ImportedTaxTest.shouldReturnItemsWithImportedTaxAddedToIt" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.NonTaxableItemsTest.shouldReuturnFalseIfItemIsNotPresent" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.InputHandlerTest.shouldTakeInput" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TaxableItemsTest.shouldReuturnFalseIfItemIsNotPresent" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ImportedTaxTest.shouldReturnItemsWithImportedTaxAddedToIt" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.SalesTaxTest.shouldReturnItemsWithImportedTaxAddedToIt" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ImportedTaxTest.shouldReturnItemsWithImportedTaxAddedToIt" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TaxableItemsTest.shouldReuturnFalseIfItemIsNotPresent" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.InputHandlerTest.shouldTakeInput" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.NonTaxableItemsTest.shouldReuturnFalseIfItemIsNotPresent" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.NonTaxableItemsTest.shouldReuturnTrueIfItemIsPresent" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.SalesTaxTest.shouldReturnItemsWithImportedTaxAddedToIt" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ImportedTaxTest.shouldReturnItemsWithImportedTaxAddedToIt" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TaxableItemsTest.shouldReuturnFalseIfItemIsNotPresent" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.InputHandlerTest.shouldTakeInput" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.NonTaxableItemsTest.shouldReuturnFalseIfItemIsNotPresent" />
       </list>
     </recent_temporary>
   </component>
@@ -645,12 +663,12 @@
       <created>1433842880862</created>
       <option name="number" value="Default" />
       <updated>1433842880862</updated>
-      <workItem from="1433842882220" duration="4826000" />
+      <workItem from="1433842882220" duration="5353000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4826000" />
+    <option name="totallyTimeSpent" value="5353000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="874" extended-state="6" />
@@ -673,7 +691,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32919255" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32919255" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -704,6 +722,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/TaxableItems.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding>
+            <element signature="e#101#109#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/NonTaxableItems.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -714,12 +742,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TaxableItems.java">
+    <entry file="file://$PROJECT_DIR$/src/ImportedTax.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <caret line="17" column="43" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="43" />
           <folding>
-            <element signature="e#101#109#0" expanded="true" />
+            <element signature="e#147#163#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/ImportedTaxTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#286#302#0" expanded="true" />
+            <element signature="e#357#373#0" expanded="true" />
+            <element signature="e#568#584#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -745,33 +786,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/ImportedTaxTest.java">
+    <entry file="file://$PROJECT_DIR$/src/SalesTax.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#286#302#0" expanded="true" />
-            <element signature="e#357#373#0" expanded="true" />
-            <element signature="e#568#584#0" expanded="true" />
+            <element signature="e#225#241#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SalesTax.java">
+    <entry file="file://$PROJECT_DIR$/test/SalesTaxTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ImportedTax.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20507812">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.6738281">
+          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
           <folding>
-            <element signature="e#147#163#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#277#293#0" expanded="true" />
+            <element signature="e#348#364#0" expanded="true" />
+            <element signature="e#571#587#0" expanded="true" />
           </folding>
         </state>
       </provider>

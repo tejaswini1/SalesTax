@@ -15,7 +15,7 @@ public class ImportedTax {
             double price = items.get(item);
 
             if(item.contains("imported")){
-                price += price *importTax;
+                price += price * importTax;
                 item = item.substring(8);
                 filteredItems.put(item, price);
             }
