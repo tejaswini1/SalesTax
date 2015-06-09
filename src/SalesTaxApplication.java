@@ -12,20 +12,22 @@ public class SalesTaxApplication {
         TaxableItems taxableItems = new TaxableItems();
         NonTaxableItems nonTaxableItems = new NonTaxableItems();
 
-        while(true){
-            int flag = 0;
-            if(Integer.parseInt(bufferedReader.readLine()) == 0)
+        while (true) {
+            int flag;
+            if (Integer.parseInt(bufferedReader.readLine()) == 0)
                 break;
 
             String tempInput = bufferedReader.readLine();
-            if(tempInput.contains("imported"));
-                    flag = 1;
-            String[] temp =tempInput.split(" ");
+            if (tempInput.contains("imported")) ;
+            flag = 1;
+            String[] temp = tempInput.split(" ");
 
-            for(String string : temp){
-                if(taxableItems.contains(string) || nonTaxableItems.contains(string)) {
-                    if(flag == 1)
-                    input.put("imported"+string, temp[temp.length - 1]);
+            for (String string : temp) {
+                if (taxableItems.contains(string) || nonTaxableItems.contains(string)) {
+                    if (flag == 1) {
+                        input.put("imported" + string, temp[temp.length - 1]);
+                        flag = 0;
+                    }
                     break;
                 }
             }

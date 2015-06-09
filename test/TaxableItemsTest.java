@@ -5,7 +5,7 @@ import static org.junit.Assert.*;
 public class TaxableItemsTest {
 
     @Test
-    public void shouldReuturnTrueIfItemIsPresent(){
+    public void shouldReuturnTrueIfItemIsPresent() {
 
         TaxableItems TaxableItems = new TaxableItems();
 
@@ -15,7 +15,7 @@ public class TaxableItemsTest {
     }
 
     @Test
-    public void shouldReuturnFalseIfItemIsNotPresent(){
+    public void shouldReuturnFalseIfItemIsNotPresent() {
 
         TaxableItems TaxableItems = new TaxableItems();
 

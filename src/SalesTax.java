@@ -6,21 +6,19 @@ public class SalesTax {
     private TaxableItems taxableItems;
     private HashMap<String, Double> resultList = new HashMap<String, Double>();
 
-    SalesTax(){
+    SalesTax() {
         nonTaxableItems = new NonTaxableItems();
         taxableItems = new TaxableItems();
     }
 
     public HashMap<String, Double> calculate(HashMap<String, Double> items) {
-        for(String item : items.keySet()) {
+        for (String item : items.keySet()) {
             double price = items.get(item);
 
-            if(taxableItems.contains(item)){
+            if (taxableItems.contains(item)) {
                 price += price * tax;
                 resultList.put(item, price);
-            }
-
-            else
+            } else
                 resultList.put(item, price);
 
         }

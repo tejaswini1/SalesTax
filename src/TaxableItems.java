@@ -4,14 +4,14 @@ public class TaxableItems {
 
     ArrayList<String> items = new ArrayList<String>();
 
-    public TaxableItems(){
+    public TaxableItems() {
         items.add("music CD");
         items.add("perfume");
     }
 
-    public boolean contains(String item){
-        for(String iteratorItem : items){
-            if(iteratorItem == item)
+    public boolean contains(String item) {
+        for (String iteratorItem : items) {
+            if (iteratorItem == item)
                 return true;
         }
         return false;
