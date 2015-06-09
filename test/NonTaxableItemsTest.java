@@ -14,4 +14,14 @@ public class NonTaxableItemsTest {
         assertEquals(true, actual);
     }
 
+    @Test
+    public void shouldReuturnFalseIfItemIsNotPresent(){
+
+        NonTaxableItems nonTaxableItems = new NonTaxableItems();
+
+        boolean actual = nonTaxableItems.contains("movie ticket");
+
+        assertFalse(actual);
+    }
+
 }
